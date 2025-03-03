@@ -1,0 +1,29 @@
+.idea/
+.DS_Store
+server.bak/
+venv/
+**/*.bak
+\#*\#
+**~
+
+# Ignore config file
+src/instance/app.cfg
+
+# Ignore the generated BUILD file
+BUILD
+
+# log files in any path
+**/*.log
+
+**/__pycache__
+
+**/.pytest_cache
+**/dist
+/tests/*/*.json
+/tests/*/*.out
+/tests/*/*.key
+/tests/*/*.csv
+/tests/*/*.xlsx
+
+/valueset/*.csv
+**/*.zip
